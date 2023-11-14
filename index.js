@@ -39,7 +39,8 @@ if (redWireConnected) {
     ride4PowerOn = true
 }
 
-/*switch (rolledNumber) {
+function ride4SlotMachine(rolledNumber){
+switch (rolledNumber) {
     case 1:
         return "star"
     case 2:
@@ -56,7 +57,8 @@ if (redWireConnected) {
         return "seven"
     default:
         break;
-}*/
+}
+}
 
 
 //Ride 4 is a slot machine
@@ -67,6 +69,3 @@ if (redWireConnected) {
     //if a 5 is rolled it should return "bowling ball"
     //if a 6 is rolled it should return "tiger"
     //if a 7 is rolled it should return "seven"
-function ride4SlotMachine(rolledNumber){
-    return "nothing"
-}
